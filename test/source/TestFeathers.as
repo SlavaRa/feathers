@@ -23,10 +23,12 @@ package
 	import feathers.tests.PopUpManagerTests;
 	import feathers.tests.ProgressBarTests;
 	import feathers.tests.RadioTests;
+	import feathers.tests.ScreenNavigatorTests;
 	import feathers.tests.ScrollBarHorizontalTests;
 	import feathers.tests.ScrollContainerTests;
 	import feathers.tests.SimpleScrollBarHorizontalTests;
 	import feathers.tests.SliderHorizontalTests;
+	import feathers.tests.StackScreenNavigatorTests;
 	import feathers.tests.StageTextTextEditorFocusTests;
 	import feathers.tests.TabBarEmptyDataProviderTests;
 	import feathers.tests.TabBarTests;
@@ -109,9 +111,11 @@ package
 				ProgressBarTests,
 				RadioTests,
 				SimpleScrollBarHorizontalTests,
+				ScreenNavigatorTests,
 				ScrollBarHorizontalTests,
 				ScrollContainerTests,
 				SliderHorizontalTests,
+				StackScreenNavigatorTests,
 				TabBarTests,
 				TabBarEmptyDataProviderTests,
 				TextAreaTests,
