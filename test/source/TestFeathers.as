@@ -1,10 +1,11 @@
 package
 {
 	import feathers.tests.BitmapFontTextEditorFocusTests;
-	import feathers.tests.ButtonGroupTests;
 	import feathers.tests.ButtonGroupDataProviderEventsTests;
+	import feathers.tests.ButtonGroupTests;
 	import feathers.tests.ButtonTests;
 	import feathers.tests.ComponentLifecycleTests;
+	import feathers.tests.DrawersTests;
 	import feathers.tests.FocusManagerEnabledTests;
 	import feathers.tests.FocusManagerTests;
 	import feathers.tests.GroupedListRendererAddRemoveTests;
@@ -13,10 +14,13 @@ package
 	import feathers.tests.LayoutGroupFlowLayoutTests;
 	import feathers.tests.LayoutGroupHorizontalLayoutTests;
 	import feathers.tests.LayoutGroupTests;
+	import feathers.tests.LayoutGroupTiledColumnsLayoutTests;
+	import feathers.tests.LayoutGroupTiledRowsLayoutTests;
 	import feathers.tests.LayoutGroupVerticalLayoutTests;
 	import feathers.tests.ListCollectionWithArrayTests;
 	import feathers.tests.ListRendererAddRemoveTests;
 	import feathers.tests.ListTests;
+	import feathers.tests.LongPressTests;
 	import feathers.tests.MinAndMaxDimensionsTests;
 	import feathers.tests.PickerListTests;
 	import feathers.tests.PopUpManagerFocusManagerTests;
@@ -32,6 +36,8 @@ package
 	import feathers.tests.StageTextTextEditorFocusTests;
 	import feathers.tests.TabBarEmptyDataProviderTests;
 	import feathers.tests.TabBarTests;
+	import feathers.tests.TapToSelectTests;
+	import feathers.tests.TapToTriggerTests;
 	import feathers.tests.TextAreaFocusTests;
 	import feathers.tests.TextAreaTests;
 	import feathers.tests.TextBlockTextEditorFocusTests;
@@ -102,6 +108,7 @@ package
 				ButtonTests,
 				ButtonGroupTests,
 				ButtonGroupDataProviderEventsTests,
+				DrawersTests,
 				GroupedListTests,
 				GroupedListRendererAddRemoveTests,
 				LayoutGroupTests,
@@ -128,6 +135,8 @@ package
 				LayoutGroupFlowLayoutTests,
 				LayoutGroupHorizontalLayoutTests,
 				LayoutGroupVerticalLayoutTests,
+				LayoutGroupTiledRowsLayoutTests,
+				LayoutGroupTiledColumnsLayoutTests,
 
 				//collections tests
 				ListCollectionWithArrayTests,
@@ -146,6 +155,9 @@ package
 				//misc
 				PopUpManagerTests,
 				TextureCacheTests,
+				TapToTriggerTests,
+				TapToSelectTests,
+				LongPressTests,
 			]);
 		}
 
