@@ -4,6 +4,7 @@ package
 	import feathers.tests.ButtonGroupDataProviderEventsTests;
 	import feathers.tests.ButtonGroupTests;
 	import feathers.tests.ButtonTests;
+	import feathers.tests.CalloutTests;
 	import feathers.tests.ComponentLifecycleTests;
 	import feathers.tests.DrawersTests;
 	import feathers.tests.FocusManagerEnabledTests;
@@ -13,6 +14,7 @@ package
 	import feathers.tests.InvalidateTests;
 	import feathers.tests.LayoutGroupFlowLayoutTests;
 	import feathers.tests.LayoutGroupHorizontalLayoutTests;
+	import feathers.tests.LayoutGroupInternalStateTests;
 	import feathers.tests.LayoutGroupTests;
 	import feathers.tests.LayoutGroupTiledColumnsLayoutTests;
 	import feathers.tests.LayoutGroupTiledRowsLayoutTests;
@@ -108,10 +110,12 @@ package
 				ButtonTests,
 				ButtonGroupTests,
 				ButtonGroupDataProviderEventsTests,
+				CalloutTests,
 				DrawersTests,
 				GroupedListTests,
 				GroupedListRendererAddRemoveTests,
 				LayoutGroupTests,
+				LayoutGroupInternalStateTests,
 				ListTests,
 				ListRendererAddRemoveTests,
 				PickerListTests,
